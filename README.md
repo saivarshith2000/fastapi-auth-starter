@@ -10,3 +10,12 @@ Simple OAuth2 Password Flow starter in fastAPI with SQLAlchemy and Postgres
 
 # Why
 I just needed a quick starter template for setting up auth in my fastapi projects. The code here is mostly lifted from the wonderful [FastAPI Docs](https://fastapi.tiangolo.com/tutorial/security/first-steps/). I just refactored it a bit to suit my general project structure.
+
+# Frameworks/Libraries
+1. sqlalchemy 2.0 - ORM
+2. uvicorn - ASGI server
+3. alembic - Database Migrations
+4. psycopg2 - Postgres DB Driver
+5. python-jose - Handling JWT
+6. passlib - Password hashing
+7. poetry - Dependency management
